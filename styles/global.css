@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   min-width: 1100px;
   margin: 0;
@@ -50,4 +54,13 @@ img {
 
 .grid {
   display: grid;
+}
+
+.link-current {
+  text-decoration: none;
+}
+
+.link_active:hover {
+  background-color: #000;
+  color: #fff;
 }
