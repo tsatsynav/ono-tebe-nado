@@ -20,6 +20,10 @@
   list-style: circle;
 }
 
+.header__item {
+  white-space: nowrap;
+}
+
 .header__item-no-bullit {
   list-style: none;
 }
